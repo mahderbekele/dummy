@@ -1,0 +1,60 @@
+#products {
+    text-align: center;
+    font-size: 120%;
+    font-family: poppins;
+    padding-top: 1%;
+    img {
+        height: 200px;
+        width: 250px;
+        border-radius: 20px;
+    }
+    h1 {
+        font-size: 400%;
+        color: rgba(101, 143, 61, 1);
+    }
+ }
+ .product-grid {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 4%;
+    line-height: 2%;
+ }
+ #testimonials {
+    background-color: #A4C778;
+    text-align: center;
+    font-family: poppins;
+    color: #000;
+    margin-top: 5%;
+    font-size: 120%;
+    h1 {
+        font-size: 400%;
+        color: rgba(101, 143, 61, 1);
+    }
+    h2 {
+        font-size: 200%;
+        margin-top: -2%;
+    }
+    p {
+        font-style: italic;
+    }
+ }
+ .testimonial-grid {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 2%;
+    align-items: first baseline;
+    img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+ }
+ .testimonial {
+    width: 20%;
+ }
+ 
+  
