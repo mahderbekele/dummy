@@ -1,0 +1,288 @@
+
+.discount {
+   background-color: rgba(238, 170, 62, 1);
+   text-align: center;
+   font-weight: lighter;
+   color: black;
+   font-size: 150%;
+   margin-top: 5%;
+   font-family: poppins;
+
+
+   h1 {
+       font-size: 250%;
+       padding: 2%;
+       font-family: itim;
+   }
+}
+
+
+.items {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 90%;
+   margin: auto;
+}
+
+
+.item {
+   position: relative;
+   text-align: center;
+   padding: 2%;
+
+
+   img {
+       height: 250px;
+       width: 300px;
+       border-radius: 14px;
+   }
+}
+
+
+.item .price {
+   position: absolute;
+   top: -10%;
+   left: -5%;
+   background: rgba(255, 255, 255, 0.8);
+   padding: 15px 15px;
+   border-radius: 50%;
+}
+
+
+.original-price {
+   text-decoration: line-through;
+   color: red;
+}
+
+
+.discounted-price {
+   color: #000;
+   font-weight: bold;
+}
+
+
+.product-categories {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 80%;
+   margin: auto;
+   text-align: center;
+   padding-top: 7%;
+   font-family: poppins;
+   font-size: 120%;
+
+
+   img {
+       height: 300px;
+       width: 400px;
+       position: relative;
+   }
+
+
+   .item span {
+       background-color: rgba(101, 143, 61, 1);
+       color: white;
+       padding: 5px 30px;
+       position: absolute;
+       left: 4;
+       top: 80%;
+       z-index: 2;
+   }
+}
+.fresh-grocery {
+   button {
+       background-color: rgba(101, 143, 61, 1);
+       padding: 3% 3% 3% 4.5%;
+       width: 35%;
+       border: none;
+       border-radius: 20px;
+       color: white;
+       font-size: 110%;
+   }
+
+
+   h2 {
+       font-size: 300%;
+       color: rgba(101, 143, 61, 1);
+   }
+}
+
+@media only screen and (max-width: 600px) {
+   .discount {
+       font-size: 90%;
+
+
+       img {
+           width: 70%;
+           height: 70%;
+       }
+   }
+
+
+   .items {
+       flex-direction: column;
+       width: 90%;
+       margin: auto;
+   }
+
+
+   .item {
+       padding-top: 10%;
+   }
+
+
+   .item .price {
+       top: 3%;
+       left: 5%;
+       background: rgba(255, 255, 255, 0.8);
+       padding: 8px 8px;
+   }
+
+
+   .product-categories {
+       flex-direction: column;
+       font-size: 100%;
+       margin: auto;
+
+
+       h2 {
+           font-size: 170%;
+       }
+   }
+
+
+   .product-categories img {
+       width: 300px;
+       height: 200px;
+   }
+
+
+   .product-categories .item span {
+       width: 20%;
+       margin-top: 2%;
+   }
+
+
+   .fresh-grocery {
+       width: 90%;
+
+
+       button {
+           width: 40%;
+           padding: 2% 0%;
+       }
+   }
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 999px) {
+      .discount {
+       font-size: 1.6rem;
+
+
+       img {
+           width: 40%;
+           height: 40%;
+       }
+   }
+
+
+   .items {
+       flex-wrap: wrap;
+       width: 95%;
+       margin: auto;
+   }
+   .item {
+       padding-top: 10%;
+   }
+
+
+   .item .price {
+       top: 9%;
+       left: 25%;
+       background: rgba(255, 255, 255, 0.8);
+       padding: 9px 9px;
+   }
+   .product-categories {
+       flex-wrap: wrap;
+       font-size: 1.6rem;
+       justify-content: center;
+       margin: auto;
+       h2 {
+           font-size: 200%;
+       }
+   }
+   .product-categories img {
+       width: 280px;
+       height: 200px;
+   }
+   .product-categories .item span {
+       width: 35%;
+       margin-top: 2%;
+   }
+   .fresh-grocery {
+       width: 50%;
+       button {
+           width: 50%;
+           padding: 2% 0%;
+       }
+   }
+
+}
+@media (min-width: 1000px) and (max-width: 1300px) {
+       .discount {
+       font-size: 1.6rem;
+
+
+       img {
+           width: 40%;
+           height: 40%;
+       }
+   }
+
+
+   .items {
+       flex-wrap: wrap;
+       width: 95%;
+       margin: auto;
+   }
+   .item {
+       padding-top: 10%;
+   }
+
+
+   .item .price {
+       top: 9%;
+       left: 25%;
+       background: rgba(255, 255, 255, 0.8);
+       padding: 9px 9px;
+   }
+
+   .product-categories {
+       flex-wrap: wrap;
+       font-size: 1.6rem;
+       justify-content: center;
+       margin: auto;
+       h2 {
+           font-size: 200%;
+       }
+   }
+   .product-categories img {
+       width: 280px;
+       height: 200px;
+   }
+   .product-categories .item span {
+       width: 35%;
+       margin-top: 2%;
+   }
+   .fresh-grocery {
+       width: 50%;
+       button {
+           width: 50%;
+           padding: 2% 0%;
+       }
+   }
+
+}
